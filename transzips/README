@@ -1,0 +1,9 @@
+This folder contains few sample "transzip" programs that transforms an input file to output file(s) of certain formats
+
+Any transzip program must have the following commandline options
+--Inbase  : This indicates where the input file is.
+--Outbase : Where output files should go to.
+--Tempbase : Where temporary files are to be created if necessary.
+--Infile   : Input file name without path.
+--Metafile : cfg file where the transzip conversion information is to be stored.
+
