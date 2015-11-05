@@ -84,9 +84,8 @@ func main() {
 		fmt.Println("nonzip file=", infile, "with no yyyymmdd pattern, so doing nothing!")
     }
     ccfg := qcfg.NewCfgMem(opt.Metafile)
-    ccfg.EditEntry("transzipV1Daily", "file", "outdir", opt.Outbase)
-    ccfg.EditEntry("transzipV1aily", "file", "outfiles", strings.Join(outfiles, ","))
+    ccfg.EditEntry("splitExample", "file", "outdir", opt.Outbase)
+    ccfg.EditEntry("splitExample", "file", "outfiles", strings.Join(outfiles, ","))
     ccfg.CfgWrite(opt.Metafile)
-	
 }
 

@@ -1,4 +1,4 @@
-This folder contains few sample "transzip" programs that transforms an input file to output file(s) of certain formats
+This folder contains few sample "split" programs that transforms an input file to output file(s) of certain formats
 
 Any transzip program must have the following commandline options
 --Inbase  : This indicates where the input file is.
